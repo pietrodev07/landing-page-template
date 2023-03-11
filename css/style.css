@@ -133,3 +133,21 @@ body {
   color: #454858;
   text-align: center;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 70px 300px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1F2937;
+  padding-bottom: 15px;
+}
+
+.author {
+  text-align: right;
+  padding: 0 20px 0 0 ;
+}
