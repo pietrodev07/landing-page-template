@@ -24,3 +24,24 @@ button {
 body {
   font-family: sans-serif;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: #f9faf8;
+  padding: 20px 150px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
