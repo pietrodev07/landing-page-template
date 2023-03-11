@@ -94,3 +94,42 @@ body {
   align-items: center;
   border-radius: 8px;
 }
+
+.card-section {
+  background-color: #f9faf8;
+  padding: 50px 0 70px 0;
+}
+
+.card-section-title {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-placeholder {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  width: 225px;
+  color: #454858;
+  text-align: center;
+}
