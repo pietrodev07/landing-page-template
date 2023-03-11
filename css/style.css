@@ -191,3 +191,72 @@ body {
   color: #f9faf8;
   padding: 15px;
 }
+
+@media (max-width: 1125px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .quote-section {
+    padding: 40px;
+  }
+
+  .quote-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero-section {
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 40px 100px 40px;
+  }
+
+  .text {
+    padding-bottom: 40px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .form {
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .form-subtitle {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 780px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 80px 40px 100px 40px;
+    text-align: center;
+  }
+
+  .text {
+    width: 80%;
+  }
+
+  .placeholder {
+    width: 80%;
+  }
+}
