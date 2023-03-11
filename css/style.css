@@ -182,3 +182,12 @@ body {
   background-color: #f9faf8;
   color: #3882f6;
 }
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  padding: 15px;
+}
