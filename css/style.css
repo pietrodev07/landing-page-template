@@ -151,3 +151,34 @@ body {
   text-align: right;
   padding: 0 20px 0 0 ;
 }
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.form {
+  width: 50%;
+  padding: 40px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.form-title {
+  padding-bottom: 10px;
+}
+
+.invert {
+  border: 2px solid #f9faf8;
+}
+
+.invert:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
