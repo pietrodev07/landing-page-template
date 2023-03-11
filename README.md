@@ -28,5 +28,5 @@ In **index.html** there are six sections:
 
 <div class="form-section">Form section</div>
 
-<div class="footer">Footer</div>
+<footer class="footer">Footer</div>
 ```
